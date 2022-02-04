@@ -12,13 +12,13 @@ void smaller3() {
     std::cin >> c;
  
     if (a <= b && a <= c)
-        std::cout << a << " is the smallest";
+        std::cout <<"the smallest of the three is " << a << "\n";
  
     else if (b <= a && b <= c)
-        std::cout << b << " is the smallest";
+        std::cout <<"the smallest of the three is " << b << "\n";
  
     else
-        std::cout << c << " is the smallest";
+        std::cout << "the smallest of the three is " << c << "\n";
 }
 
 int main(){
